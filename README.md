@@ -1,4 +1,4 @@
-<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/lift_template/master/clickstart.json"><img src="https://s3.amazonaws.com/cloudbees-downloads/clickstart/clickstart-now.png"/></a>
+<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/lift_template/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
 
 # Scala and Lift ClickStart.
 
@@ -18,7 +18,7 @@ This ClickStart bootstraps you with a working lift web application, a database, 
 You can use this as a starting point for your own lift application 
 (remember the source repository will be private to your account). 
 
-Click here to launch this right now.
+
 
 Feel free to fork and make this your own - pull requests welcome !
 

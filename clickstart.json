@@ -20,8 +20,10 @@
         }
     ],
     "build-with-jenkins": {
-        "template": {
-            "type": "maven"
+	    "template": {
+            "type": "https://raw.github.com/christ66/lift_template/master/jenkins.xml",
+            "options": {
+            }            
         }
     }
 }

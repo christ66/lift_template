@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>Build and test the dart app</description>
+  <description>Build and test lift app</description>
   <logRotator>
     <daysToKeep>60</daysToKeep>
     <numToKeep>-1</numToKeep>
@@ -73,7 +73,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Maven>
-      <targets></targets>
+      <targets>install</targets>
       <mavenName>(Default)</mavenName>
       <usePrivateRepository>false</usePrivateRepository>
       <settings class="jenkins.mvn.DefaultSettingsProvider"/>
@@ -89,7 +89,7 @@
             <applicationEnvironment></applicationEnvironment>
             <applicationConfig/>
             <apiEndPoint>https://api.cloudbees.com/api</apiEndPoint>
-            <filePattern>target/*.zip</filePattern>
+            <filePattern>target/*.war</filePattern>
           </com.cloudbees.plugins.deployer.deployables.WildcardMatchingDeployable>
         </deployables>
       </configuration>
